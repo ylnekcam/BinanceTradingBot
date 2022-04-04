@@ -3,8 +3,6 @@ from binanceKey import apiKey,secKey
 import pandas as pd
 import ta
 import numpy as np
-import time
-import sqlalchemy
 
 client = Client(apiKey,secKey)
 # prices = client.get_all_tickers()
