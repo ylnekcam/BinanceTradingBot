@@ -3,10 +3,16 @@ from binanceKey import apiKey,secKey
 import pandas as pd
 import ta
 import numpy as np
+import json
 
-client = Client(apiKey,secKey)
-# prices = client.get_all_tickers()
-# print(prices)
+def getPathFromJson(jsonpath):
+
+  with open(jsonpath, 'r') as f:
+    pathDict = json.load(f)
+    return pathDict
+
+data=getPathFromJson('Bkey.json')
+client = Client(data.get("apiKey"),data.get("secKey"))
 
 
 def getBinanceData(symbol,interval,lookback):
@@ -53,4 +59,6 @@ class Signals:
                                   &(self.df.macd>0),1,0)
         
 
-
+def createOrder(Symbol,Side,Type,Qty):
+    order=client.create_order(symbol=Symbol,side=Side,type=Type,quantity=Qty)
+    return order

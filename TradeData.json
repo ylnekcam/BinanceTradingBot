@@ -1,0 +1,6 @@
+{"pair":"ADAUSDT",
+    "buylookback": "100",
+    "selllookback": "2",
+    "qty": 2,
+    "targetpercent": 1.005,
+    "stoppercent": 0.995}

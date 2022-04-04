@@ -30,7 +30,9 @@ if df.Buy.iloc[-1]==0:
 while open_position:
     time.sleep(0.5)
     df = getBinanceData('ADAUSDT', '1m', '2')   
-    print(f'current Close is ' +str(df.Close.iloc[-1]))
+    print(f'current Close ' + str(df.Close.iloc[-1]))
+    print(f'current Target ' + str(buyprice * 1.005))
+    print(f'current Stop is ' + str(buyprice * 0.995))
     if df.Close[-1] <= buyprice * 0.995 or df.Close [-1] >= 1.005 * buyprice:
         print(f'Sybol: ADAUSDT,Sell Price:{df.Close[-1]}')
         break
