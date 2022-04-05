@@ -1,38 +1,18 @@
-from binanceFunction import getBinanceData,applytechnicals,Signals
-import time
+from binanceFunction import getMinuteData,applytechnicals,Signals
+from RWfunction import getPathFromJson
+from binance import Client
 import sqlalchemy
 import pandas as pd
 
 engine = sqlalchemy.create_engine('sqlite:///BinanceData.db')
-#while True:
-df = getBinanceData('ADAUSDT','1m','100')  
+pair='XMRUSDT'
+dataKey=getPathFromJson('Bkey.json')
+client = Client(dataKey.get("apiKey"),dataKey.get("secKey"))
+df = getMinuteData(client,pair,'1m','200')
 applytechnicals(df)
-#df.to_sql('ADAUSDT', engine, if_exists = 'append',index=False)
-inst = Signals(df,5)
+inst = Signals(df,50)
 inst.decide()
-print(f'current Close is ' +str(df.Close.iloc[-1]))
-print(df.Buy.iloc[-1])
-print(df.trigger.iloc[-1])
-#d=df[df['Buy']==1]#get all buy==1
-#print(d)
+df.to_sql('TA_'+pair, engine, if_exists = 'append',index=False)
+d=df[df.Buy==1]
+d.to_sql('TA_BUY'+pair, engine, if_exists = 'append',index=False)
 
-open_position=False
-bfdf=pd.DataFrame()
-
-if df.Buy.iloc[-1]==0:
-    df.to_sql('ADAUSDT', engine, if_exists = 'append',index=False)
-    d=df.iloc[[-1]]
-    d.to_sql('Buy', engine, if_exists = 'append',index=False)
-    buyprice=float(d.Close.iloc[-1])
-    print(f'Sybol: ADAUSDT,BUY Price:{df.Close[-1]}')
-    open_position = True
-
-while open_position:
-    time.sleep(0.5)
-    df = getBinanceData('ADAUSDT', '1m', '2')   
-    print(f'current Close ' + str(df.Close.iloc[-1]))
-    print(f'current Target ' + str(buyprice * 1.005))
-    print(f'current Stop is ' + str(buyprice * 0.995))
-    if df.Close[-1] <= buyprice * 0.995 or df.Close [-1] >= 1.005 * buyprice:
-        print(f'Sybol: ADAUSDT,Sell Price:{df.Close[-1]}')
-        break
