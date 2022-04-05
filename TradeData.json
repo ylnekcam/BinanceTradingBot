@@ -1,5 +1,6 @@
-{"pair":"DOGEUSDT",
-    "buylookback": "100",
+{"pair":"XMRUSDT",
+    "lags":25,
+    "buylookback": "300",
     "qty": 2,
-    "targetpercent": 1.0001,
-    "stoppercent": 0.999}
+    "targetpercent": 1.0002,
+    "stoppercent": 0.9999}

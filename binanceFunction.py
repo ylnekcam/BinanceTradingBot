@@ -1,20 +1,8 @@
-from binance import Client
 import pandas as pd
 import ta
 import numpy as np
-import json
 
-def getPathFromJson(jsonpath):
-
-  with open(jsonpath, 'r') as f:
-    pathDict = json.load(f)
-    return pathDict
-
-data=getPathFromJson('Bkey.json')
-client = Client(data.get("apiKey"),data.get("secKey"))
-
-
-def getBinanceData(symbol,interval,lookback):
+def getMinuteData(client,symbol,interval,lookback):
     frame=pd.DataFrame(client.get_historical_klines(symbol, interval, lookback + ' min ago UTC'))
     frame=frame.iloc[:,:6]
     frame.columns=['Time','Open','High','Low','Close','Volume']
@@ -35,7 +23,7 @@ def applytechnicals(df):
 
 
 class Signals:
-    
+    #check signals if trend up or not
     def __init__(self,df,lags):
         self.df = df
         self.lags =lags
@@ -58,6 +46,16 @@ class Signals:
                                   &(self.df.macd>0),1,0)
         
 
-def createOrder(Symbol,Side,Type,Qty):
+def createOrder(client,Symbol,Side,Type,Qty):
     order=client.create_order(symbol=Symbol,side=Side,type=Type,quantity=Qty)
     return order
+
+
+#get all price of coins
+def getAllCoinsPrice(client):
+    return pd.DataFrame(client.get_all_tickers())
+
+#get average of symbol
+def getPriceSymbol(client,pair)
+    return client.get_avg_price(symbol=pair)
+    

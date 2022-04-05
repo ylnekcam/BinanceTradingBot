@@ -32,3 +32,125 @@ BUYTime:2022-04-05 11:47:29.000139, BuyPrice:0.1501, current Target: 0.150115010
 loss: SELLTime:2022-04-05 11:47:45.416320, Symbol: DOGEUSDT, side:SELL,Price:0.1499,type=MARKET,quantity=2
 Symbol:DOGEUSDT, QTY:2, Price:0.1499
 BUYTime:2022-04-05 11:47:45.600867, BuyPrice:0.1499, current Target: 0.14991499, current Stop is: 0.1497501 
+Symbol:XMRUSDT, QTY:2, Price:227.8
+BUYTime:2022-04-05 12:52:08.763173, BuyPrice:227.8, current Target: 228.939, current Stop is: 225.97760000000002 
+Symbol:XMRUSDT, QTY:2, Price:227.8
+BUYTime:2022-04-05 12:53:30.698111, BuyPrice:227.8, current Target: 228.939, current Stop is: 225.97760000000002 
+Symbol:XMRUSDT, QTY:2, Price:227.4
+BUYTime:2022-04-05 12:55:12.041563, BuyPrice:227.4, current Target: 227.8548, current Stop is: 227.17260000000002 
+Symbol:XMRUSDT, QTY:2, Price:227.5
+BUYTime:2022-04-05 12:58:40.375075, BuyPrice:227.5, current Target: 227.955, current Stop is: 227.2725 
+Symbol:XMRUSDT, QTY:2, Price:227.1
+BUYTime:2022-04-05 13:01:13.448119, BuyPrice:227.1, current Target: 227.5542, current Stop is: 226.8729 
+Symbol:XMRUSDT, QTY:2, Price:227.1
+BUYTime:2022-04-05 13:01:42.794319, BuyPrice:227.1, current Target: 227.14542, current Stop is: 227.07729 
+win: SELLTime:2022-04-05 13:01:45.895576, Symbol: XMRUSDT, side:SELL,Price:227.2,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:227.2
+BUYTime:2022-04-05 13:01:46.368447, BuyPrice:227.2, current Target: 227.24543999999997, current Stop is: 227.17728 
+loss: SELLTime:2022-04-05 13:01:47.868894, Symbol: XMRUSDT, side:SELL,Price:227.1,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:227.1
+BUYTime:2022-04-05 13:01:48.132573, BuyPrice:227.1, current Target: 227.14542, current Stop is: 227.07729 
+loss: SELLTime:2022-04-05 13:01:49.523121, Symbol: XMRUSDT, side:SELL,Price:227.0,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:227.0
+BUYTime:2022-04-05 13:01:49.824470, BuyPrice:227.0, current Target: 227.0454, current Stop is: 226.9773 
+win: SELLTime:2022-04-05 13:01:53.941264, Symbol: XMRUSDT, side:SELL,Price:227.1,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:227.1
+BUYTime:2022-04-05 13:01:54.171416, BuyPrice:227.1, current Target: 227.14542, current Stop is: 227.07729 
+loss: SELLTime:2022-04-05 13:01:57.883802, Symbol: XMRUSDT, side:SELL,Price:227.0,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:227.0
+BUYTime:2022-04-05 13:01:58.335695, BuyPrice:227.0, current Target: 227.0454, current Stop is: 226.9773 
+win: SELLTime:2022-04-05 13:01:59.843345, Symbol: XMRUSDT, side:SELL,Price:227.1,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:227.1
+BUYTime:2022-04-05 13:02:00.107430, BuyPrice:227.1, current Target: 227.14542, current Stop is: 227.07729 
+win: SELLTime:2022-04-05 13:02:01.580384, Symbol: XMRUSDT, side:SELL,Price:227.2,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:227.2
+BUYTime:2022-04-05 13:02:01.808366, BuyPrice:227.2, current Target: 227.24543999999997, current Stop is: 227.17728 
+loss: SELLTime:2022-04-05 13:02:03.908566, Symbol: XMRUSDT, side:SELL,Price:227.1,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:227.1
+BUYTime:2022-04-05 13:02:04.134112, BuyPrice:227.1, current Target: 227.14542, current Stop is: 227.07729 
+win: SELLTime:2022-04-05 13:02:11.723361, Symbol: XMRUSDT, side:SELL,Price:227.2,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:227.2
+BUYTime:2022-04-05 13:02:11.971491, BuyPrice:227.2, current Target: 227.24543999999997, current Stop is: 227.17728 
+Symbol:XMRUSDT, QTY:2, Price:225.4
+BUYTime:2022-04-05 14:00:03.637008, BuyPrice:225.4, current Target: 225.44508, current Stop is: 225.37746 
+loss: SELLTime:2022-04-05 14:00:14.458756, Symbol: XMRUSDT, side:SELL,Price:225.3,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:225.3
+BUYTime:2022-04-05 14:00:14.707465, BuyPrice:225.3, current Target: 225.34506000000002, current Stop is: 225.27747000000002 
+win: SELLTime:2022-04-05 14:00:20.253266, Symbol: XMRUSDT, side:SELL,Price:225.4,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:225.4
+BUYTime:2022-04-05 14:00:20.526345, BuyPrice:225.4, current Target: 225.44508, current Stop is: 225.37746 
+loss: SELLTime:2022-04-05 14:00:34.368611, Symbol: XMRUSDT, side:SELL,Price:225.3,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:225.3
+BUYTime:2022-04-05 14:00:34.581146, BuyPrice:225.3, current Target: 225.34506000000002, current Stop is: 225.27747000000002 
+win: SELLTime:2022-04-05 14:00:40.467316, Symbol: XMRUSDT, side:SELL,Price:225.4,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:225.4
+BUYTime:2022-04-05 14:00:40.839094, BuyPrice:225.4, current Target: 225.44508, current Stop is: 225.37746 
+loss: SELLTime:2022-04-05 14:00:58.954053, Symbol: XMRUSDT, side:SELL,Price:225.3,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:225.3
+BUYTime:2022-04-05 14:00:59.194717, BuyPrice:225.3, current Target: 225.34506000000002, current Stop is: 225.27747000000002 
+loss: SELLTime:2022-04-05 14:01:11.015345, Symbol: XMRUSDT, side:SELL,Price:225.2,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:225.2
+BUYTime:2022-04-05 14:01:11.244518, BuyPrice:225.2, current Target: 225.24504, current Stop is: 225.17748 
+win: SELLTime:2022-04-05 14:01:12.592767, Symbol: XMRUSDT, side:SELL,Price:225.3,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:225.3
+BUYTime:2022-04-05 14:01:12.812584, BuyPrice:225.3, current Target: 225.34506000000002, current Stop is: 225.27747000000002 
+Symbol:XMRUSDT, QTY:2, Price:225.4
+BUYTime:2022-04-05 14:04:41.583190, BuyPrice:225.4, current Target: 225.44508, current Stop is: 225.37746 
+loss: SELLTime:2022-04-05 14:05:02.387238, Symbol: XMRUSDT, side:SELL,Price:225.2,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:225.5
+BUYTime:2022-04-05 14:10:30.271162, BuyPrice:225.5, current Target: 225.5451, current Stop is: 225.47745 
+win: SELLTime:2022-04-05 14:10:36.413897, Symbol: XMRUSDT, side:SELL,Price:225.7,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:225.7
+BUYTime:2022-04-05 14:10:36.794345, BuyPrice:225.7, current Target: 225.74514, current Stop is: 225.67743 
+loss: SELLTime:2022-04-05 14:10:48.474482, Symbol: XMRUSDT, side:SELL,Price:225.6,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:225.6
+BUYTime:2022-04-05 14:10:48.724833, BuyPrice:225.6, current Target: 225.64512, current Stop is: 225.57744 
+Symbol:XMRUSDT, QTY:2, Price:225.6
+BUYTime:2022-04-05 14:14:01.141959, BuyPrice:225.6, current Target: 225.64512, current Stop is: 225.57744 
+Symbol:XMRUSDT, QTY:2, Price:225.6
+BUYTime:2022-04-05 14:15:33.782480, BuyPrice:225.6, current Target: 225.64512, current Stop is: 225.57744 
+Symbol:XMRUSDT, QTY:2, Price:225.6
+BUYTime:2022-04-05 14:16:02.693098, BuyPrice:225.6, current Target: 225.64512, current Stop is: 225.57744 
+Symbol:XMRUSDT, QTY:2, Price:225.6
+BUYTime:2022-04-05 14:16:09.379221, BuyPrice:225.6, current Target: 225.64512, current Stop is: 225.57744 
+Symbol:XMRUSDT, QTY:2, Price:225.3
+BUYTime:2022-04-05 14:16:42.844445, BuyPrice:225.3, current Target: 225.34506000000002, current Stop is: 225.27747000000002 
+win: SELLTime:2022-04-05 14:16:56.798310, Symbol: XMRUSDT, side:SELL,Price:225.4,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:225.4
+BUYTime:2022-04-05 14:16:57.058975, BuyPrice:225.4, current Target: 225.44508, current Stop is: 225.37746 
+loss: SELLTime:2022-04-05 14:17:32.934280, Symbol: XMRUSDT, side:SELL,Price:225.3,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:225.3
+BUYTime:2022-04-05 14:17:33.184238, BuyPrice:225.3, current Target: 225.34506000000002, current Stop is: 225.27747000000002 
+Symbol:XMRUSDT, QTY:2, Price:224.8
+BUYTime:2022-04-05 14:18:15.033659, BuyPrice:224.8, current Target: 224.84496000000001, current Stop is: 224.77752 
+Symbol:XMRUSDT, QTY:2, Price:224.7
+BUYTime:2022-04-05 14:21:17.936279, BuyPrice:224.7, current Target: 224.74493999999999, current Stop is: 224.67753 
+Symbol:XMRUSDT, QTY:2, Price:224.8
+BUYTime:2022-04-05 14:21:59.604714, BuyPrice:224.8, current Target: 224.84496000000001, current Stop is: 224.77752 
+loss: SELLTime:2022-04-05 14:22:16.862941, Symbol: XMRUSDT, side:SELL,Price:224.4,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:224.4
+BUYTime:2022-04-05 14:22:17.112934, BuyPrice:224.4, current Target: 224.44488, current Stop is: 224.37756000000002 
+win: SELLTime:2022-04-05 14:22:19.222381, Symbol: XMRUSDT, side:SELL,Price:224.5,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:224.5
+BUYTime:2022-04-05 14:22:19.472351, BuyPrice:224.5, current Target: 224.54489999999998, current Stop is: 224.47755 
+loss: SELLTime:2022-04-05 14:22:25.003624, Symbol: XMRUSDT, side:SELL,Price:224.3,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:224.3
+BUYTime:2022-04-05 14:22:25.238186, BuyPrice:224.3, current Target: 224.34486, current Stop is: 224.27757000000003 
+win: SELLTime:2022-04-05 14:22:34.738543, Symbol: XMRUSDT, side:SELL,Price:224.5,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:224.5
+BUYTime:2022-04-05 14:22:34.988469, BuyPrice:224.5, current Target: 224.54489999999998, current Stop is: 224.47755 
+loss: SELLTime:2022-04-05 14:22:54.905291, Symbol: XMRUSDT, side:SELL,Price:224.3,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:224.3
+BUYTime:2022-04-05 14:22:55.164952, BuyPrice:224.3, current Target: 224.34486, current Stop is: 224.27757000000003 
+loss: SELLTime:2022-04-05 14:22:57.247228, Symbol: XMRUSDT, side:SELL,Price:224.2,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:224.2
+BUYTime:2022-04-05 14:22:57.476003, BuyPrice:224.2, current Target: 224.24483999999998, current Stop is: 224.17757999999998 
+win: SELLTime:2022-04-05 14:22:58.901524, Symbol: XMRUSDT, side:SELL,Price:224.3,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:224.3
+BUYTime:2022-04-05 14:22:59.170737, BuyPrice:224.3, current Target: 224.34486, current Stop is: 224.27757000000003 
+loss: SELLTime:2022-04-05 14:23:05.173862, Symbol: XMRUSDT, side:SELL,Price:224.2,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:224.2
+BUYTime:2022-04-05 14:23:05.416854, BuyPrice:224.2, current Target: 224.24483999999998, current Stop is: 224.17757999999998 
+win: SELLTime:2022-04-05 14:23:13.098579, Symbol: XMRUSDT, side:SELL,Price:224.3,type=MARKET,quantity=2
+Symbol:XMRUSDT, QTY:2, Price:224.3
+BUYTime:2022-04-05 14:23:13.351466, BuyPrice:224.3, current Target: 224.34486, current Stop is: 224.27757000000003 
