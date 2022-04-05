@@ -1,5 +1,4 @@
 from binance import Client
-from binanceKey import apiKey,secKey
 import pandas as pd
 import ta
 import numpy as np

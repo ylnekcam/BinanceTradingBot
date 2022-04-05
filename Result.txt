@@ -1,0 +1,34 @@
+Symbol:ADAUSDT, QTY:2, Price:1.212
+BUYTime:2022-04-05 10:40:06.713063, current Close:1.212, current Target: 1.2132119999999997, current Stop is: 1.210788 
+Symbol:ADAUSDT, QTY:2, Price:1.212
+BUYTime:2022-04-05 10:43:13.861253, current Close:1.212, current Target: 1.2132119999999997, current Stop is: 1.210788 
+Symbol:ADAUSDT, QTY:2, Price:1.21
+BUYTime:2022-04-05 10:47:05.635444, current Close:1.21, current Target: 1.21121, current Stop is: 1.20879 
+Symbol:ADAUSDT, QTY:2, Price:1.209
+BUYTime:2022-04-05 10:49:17.262330, current Close:1.209, current Target: 1.2102089999999999, current Stop is: 1.207791 
+Symbol:ADAUSDT, QTY:2, Price:1.207
+BUYTime:2022-04-05 10:52:50.140293, current Close:1.207, current Target: 1.208207, current Stop is: 1.2057930000000001 
+Symbol:ADAUSDT, QTY:2, Price:1.211
+BUYTime:2022-04-05 11:02:53.236898, current Close:1.211, current Target: 1.212211, current Stop is: 1.209789 
+Symbol:ADAUSDT, QTY:2, Price:1.213
+BUYTime:2022-04-05 11:14:04.056790, current Close:1.213, current Target: 1.214213, current Stop is: 1.2117870000000002 
+Symbol:ADAUSDT, QTY:2, Price:1.214
+BUYTime:2022-04-05 11:33:09.350232, current Close:1.214, current Target: 1.2152139999999998, current Stop is: 1.212786 
+loss: SELLTime:2022-04-05 11:37:35.213136, Symbol: ADAUSDT, side:SELL,Price:1.212,type=MARKET,quantity=2
+Symbol:ADAUSDT, QTY:2, Price:1.212
+BUYTime:2022-04-05 11:37:35.543068, current Close:1.212, current Target: 1.2132119999999997, current Stop is: 1.210788 
+Symbol:ADAUSDT, QTY:2, Price:1.212
+BUYTime:2022-04-05 11:43:32.616229, BuyPrice:1.212, current Target: 1.2121212, current Stop is: 1.210788 
+Symbol:ADAUSDT, QTY:2, Price:1.213
+BUYTime:2022-04-05 11:45:23.946653, BuyPrice:1.213, current Target: 1.2131213, current Stop is: 1.2117870000000002 
+Symbol:DOGEUSDT, QTY:2, Price:0.1503
+BUYTime:2022-04-05 11:46:24.658211, BuyPrice:0.1503, current Target: 0.15031503, current Stop is: 0.1501497 
+win: SELLTime:2022-04-05 11:46:38.676472, Symbol: DOGEUSDT, side:SELL,Price:0.1504,type=MARKET,quantity=2
+Symbol:DOGEUSDT, QTY:2, Price:0.1504
+BUYTime:2022-04-05 11:46:38.926638, BuyPrice:0.1504, current Target: 0.15041504, current Stop is: 0.1502496 
+loss: SELLTime:2022-04-05 11:47:28.705762, Symbol: DOGEUSDT, side:SELL,Price:0.1501,type=MARKET,quantity=2
+Symbol:DOGEUSDT, QTY:2, Price:0.1501
+BUYTime:2022-04-05 11:47:29.000139, BuyPrice:0.1501, current Target: 0.15011501000000002, current Stop is: 0.14994990000000002 
+loss: SELLTime:2022-04-05 11:47:45.416320, Symbol: DOGEUSDT, side:SELL,Price:0.1499,type=MARKET,quantity=2
+Symbol:DOGEUSDT, QTY:2, Price:0.1499
+BUYTime:2022-04-05 11:47:45.600867, BuyPrice:0.1499, current Target: 0.14991499, current Stop is: 0.1497501 

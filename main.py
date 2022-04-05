@@ -1,5 +1,4 @@
-from strategy import taStrategy
-import time
+from StrategyTest import taStrategy
 import json
 
 def getPathFromJson(jsonpath):
@@ -9,6 +8,8 @@ def getPathFromJson(jsonpath):
     return pathDict
 
 data=getPathFromJson('TradeData.json')    
+print(data)
+print(f'Bot Start')
 while True:
-    #strategy(pair,buylookback,selllookback,qty,target,stoploss,open_position=False)
-    taStrategy(data.get("pair"),data.get("buylookback"),data.get("selllookback"),data.get("qty"),data.get("targetpercent"),data.get("stoppercent"))
+    #taStrategy("ADAUSDT","100","2",2,1.005,0.995)
+    taStrategy(data.get("pair"),data.get("buylookback"),data.get("qty"),data.get("targetpercent"),data.get("stoppercent"))
