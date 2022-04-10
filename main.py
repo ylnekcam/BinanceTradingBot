@@ -1,5 +1,5 @@
 from StrategyTest import taStrategy
-from RWfunction import getPathFromJson
+from filefunction import getPathFromJson
 from binance.client import Client
 
 dataKey=getPathFromJson('Bkey.json')

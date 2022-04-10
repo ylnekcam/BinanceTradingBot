@@ -1,6 +1,6 @@
 from binanceFunction import getMinuteData,applytechnicals,Signals
 import time
-from RWfunction import writeTxt
+from filefunction import writeTxt
 import sqlalchemy
 from datetime import datetime
 

@@ -2,6 +2,8 @@ import pandas as pd
 import ta
 import numpy as np
 
+#get kline historical data from binance interval per minute check this site
+# https://python-binance.readthedocs.io/en/latest/market_data.html
 def getMinuteData(client,symbol,interval,lookback):
     frame=pd.DataFrame(client.get_historical_klines(symbol, interval, lookback + ' min ago UTC'))
     frame=frame.iloc[:,:6]
@@ -56,6 +58,6 @@ def getAllCoinsPrice(client):
     return pd.DataFrame(client.get_all_tickers())
 
 #get average of symbol
-def getPriceSymbol(client,pair)
+def getPriceSymbol(client,pair):
     return client.get_avg_price(symbol=pair)
     

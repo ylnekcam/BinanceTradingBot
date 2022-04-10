@@ -1,5 +1,5 @@
 from binanceFunction import getMinuteData,applytechnicals,Signals
-from RWfunction import getPathFromJson
+from filefunction import getPathFromJson
 from binance import Client
 import sqlalchemy
 import pandas as pd
