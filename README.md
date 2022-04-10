@@ -1,6 +1,4 @@
 # PythonWinCleanerBot
-install before using
-pip install pywin32
 
 Create a Binance bot for testing only. The bot will get data from binance and suggest what will be the next price.
 i use spyder IDE to run this app.
